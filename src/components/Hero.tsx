@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 // import hero2 from "../assets/hero2.png";
-import car from "../assets/car.png";
+import car from "../assets/car.webp";
 export const Hero = () => {
     return (
         <section className="container -mb-10  grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
