@@ -1,8 +1,9 @@
 import { Button } from "./ui/button";
-import hero2 from "../assets/hero2.png";
+// import hero2 from "../assets/hero2.png";
+import car from "../assets/car.png";
 export const Hero = () => {
     return (
-        <section className="container -mb-10 grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
+        <section className="container -mb-10  grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
             <div className="text-center lg:text-start space-y-6">
                 <main className="text-5xl md:text-6xl font-bold">
                     <h1 className="inline">
@@ -25,7 +26,7 @@ export const Hero = () => {
                 </p>
 
                 <div className="space-y-4 md:space-y-0 md:space-x-4">
-                    <Button className="w-full md:w-1/3">Get Started</Button>
+                    <Button className="w-full md:w-1/3 ">Get Started</Button>
 
                     {/* <a
                         rel="noreferrer noopener"
@@ -45,7 +46,7 @@ export const Hero = () => {
             {/* <div className="z-10">
         <HeroCards />
       </div> */}
-            <img src={hero2} className=""></img>
+            <img src={car} className=""></img>
 
             {/* Shadow effect */}
             <div className="shadow"></div>
